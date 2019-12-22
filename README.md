@@ -5,8 +5,14 @@ Com esse script você conseguirá adicionar o OpenMediaVault em um Domínio Samb
 
 # Utilização
 Para fazer uso do script, só faça o download do arquivo, dê permissão de execução e execute-o como root ou sudo:
+
+
 wget https://raw.githubusercontent.com/Tacioandrade/JoinOMVDomain/master/JoinDC.sh
+
+
 chmod +x JoinDC.sh
+
+
 ./JoinDC.sh
 
 Após executar o script siga o passo a passo e reinicie o OpenMediaVault, após reiniciar, só ir olhar no menu de Usuários da ferramenta e verá que todos os usuários já foram adicionados!
