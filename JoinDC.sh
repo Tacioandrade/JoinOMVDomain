@@ -25,7 +25,7 @@ dns_lookup_realm = true
 dns_lookup_kdc = true
 
 [realms]
-MULTITI.LOCAL = {
+`echo $DOMAIN  = {
 kdc = $DC
 default_domain = `echo $DOMAIN | tr 'A-Z' 'a-z'`
 admin_server = $DC
